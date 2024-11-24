@@ -20,3 +20,16 @@ enum itemState {
 	used,
 	puttingBack,
 }
+
+//Sequence States
+enum seqState {
+	notPlaying,
+	waiting,
+	playing,
+	finished
+}
+
+//Sequence variables
+sequencesState = seqState.notPlaying;
+curSeqLayer = noone;
+curSeq = noone;

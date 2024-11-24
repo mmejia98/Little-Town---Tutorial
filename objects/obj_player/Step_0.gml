@@ -157,5 +157,4 @@ depth = -y;
 sprite_index = playerSpr[myState][dir];
 
 //show_debug_message("El estado del personaje es: " + string(myState));
-show_debug_message("nearbyItem: " + string(nearbyItem) + " and nearbyNPC: " + string(nearbyNPC));
 

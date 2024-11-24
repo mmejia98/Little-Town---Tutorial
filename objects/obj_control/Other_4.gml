@@ -8,3 +8,10 @@ switch room {
 	} break;
 }
 
+//Mark Sequences layer
+if(layer_exists("Cutscenes")){
+	curSeqLayer = "Cutscenes";
+}else{
+	curSeqLayer = "Instances";
+}
+
