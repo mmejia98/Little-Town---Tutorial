@@ -2,6 +2,10 @@
 
 //Game variables
 global.playerControl = true;
+townBGMvolume = audio_sound_get_gain(snd_townBGM);
+townAmbienceVolume = audio_sound_get_gain(snd_townAmbience);
+global.gameOver = false;
+global.gameStart = false;
 
 //Player States
 enum playerState {
@@ -33,3 +37,9 @@ enum seqState {
 sequencesState = seqState.notPlaying;
 curSeqLayer = noone;
 curSeq = noone;
+
+//NPC states
+enum npcState {
+	normal,
+	done
+}

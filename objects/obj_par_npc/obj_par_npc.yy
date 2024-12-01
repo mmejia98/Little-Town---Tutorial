@@ -30,6 +30,22 @@
     {"$GMObjectProperty":"v1","%Name":"loopRange01","filters":[],"listItems":[],"multiselect":false,"name":"loopRange01","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"loopRange02","filters":[],"listItems":[],"multiselect":false,"name":"loopRange02","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"240","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"myText","filters":[],"listItems":[],"multiselect":false,"name":"myText","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Why, hello there!\"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"myItem","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"myItem","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"noone","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"itemTextHappy","filters":[],"listItems":[],"multiselect":false,"name":"itemTextHappy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Text for the right item\"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"itemTextSad","filters":[],"listItems":[],"multiselect":false,"name":"itemTextSad","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Text for the wrong item\"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"itemTextDone","filters":[],"listItems":[],"multiselect":false,"name":"itemTextDone","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Thank you next\"","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"sequenceHappy","filters":[
+        "GMSequence",
+      ],"listItems":[],"multiselect":false,"name":"sequenceHappy","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"sequenceSad","filters":[
+        "GMSequence",
+      ],"listItems":[],"multiselect":false,"name":"sequenceSad","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"myState","filters":[],"listItems":[],"multiselect":false,"name":"myState","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"npcState.normal","varType":4,},
+    {"$GMObjectProperty":"v1","%Name":"doneSprite","filters":[
+        "GMSprite",
+      ],"listItems":[],"multiselect":false,"name":"doneSprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
